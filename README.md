@@ -1,6 +1,10 @@
 # SPY-backtest
 A machine learning-based strategy selector for SPY (S&amp;P 500 ETF), using RSI, SMA crossover, and momentum signals. Trains a Random Forest on historical data to pick the best signal daily. Includes backtest vs buy-and-hold, Sharpe ratio, and drawdown analysis. 
 
+## Strategy overview
+
+![Strategy schematic](strat.png)
+
 # ML Strategy Selector for SPY (2020–2024)
 
 This notebook uses a machine learning approach to dynamically choose between multiple technical trading signals for SPY (the S&P 500 ETF). It compares a model-driven strategy to a simple buy-and-hold baseline.
